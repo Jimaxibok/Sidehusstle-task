@@ -1,0 +1,159 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    /* background: #fff; */
+    background:#333;;
+}
+
+a {
+    text-decoration: none;
+    color: #333; }
+  
+  ul {
+    list-style: none; }
+  
+  h2, h3, h4 {
+    text-transform: uppercase; 
+}
+  
+  img {
+    width: 100%; 
+}
+  
+  #logo {
+    width: 70px;
+    height: 70px;
+    color: rgb(44, 9, 9);
+    text-transform: uppercase; 
+}
+  
+  #main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem; 
+}
+    #main-nav ul {
+      display: flex; }
+    #main-nav li {
+      padding: 1rem 1.5rem;
+     }
+    #main-nav a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; 
+    }
+      #main-nav a:hover {
+        border-color: #ccc; 
+    }
+      #main-nav a.current {
+        border-color: #eebc00;
+     }
+
+     #main-footer {
+     background: #333;
+     color: #fff;
+     height: 5rem; 
+    }
+     #main-footer .footer-content {
+      display: flex;
+      justify-content: space-between;
+      height: 5rem;
+     align-items: center; 
+    }
+     #main-footer .footer-content .social .bi {
+     margin-right: 1rem;
+     border: 2px #fff solid;
+     border-radius: 50%;
+     height: 20px;
+     width: 20px;
+     line-height: 20px;
+     text-align: center;
+     padding: 0.5rem;
+ }
+     #main-footer .footer-content .social .bi:hover {
+     background: #eebc00; 
+    }
+
+      #header-home {
+    background: url("https://www.yankodesign.com/images/design_news/2021/01/295962/01-hariana_bed_yankodesign.jpg") no-repeat center right/cover;
+    height: 100vh;
+    color: #fff; 
+}
+   #header-home .header-content {
+      text-align: center;
+      padding-top: 20%;
+     }
+    #header-home .header-content h1 {
+     font-size: 4rem;
+      line-height: 1.2;
+     }
+
+     #header-inner {
+        background: url("https://www.yankodesign.com/images/design_news/2021/01/295962/01-hariana_bed_yankodesign.jpg") no-repeat 20% 30%/cover;
+        height: 5.5rem;
+        border-bottom: 3px solid #eebc00;
+     }
+
+     #contact-a .text-fields {
+        display: grid;
+        grid-template-areas: 'name email'
+       'subject phone'
+       'message message';
+        grid-gap: 1.2rem;
+        margin-bottom: 1.2rem; 
+    }
+        #contact-a .text-fields .name-input {
+          grid-area: name; 
+        }
+        #contact-a .text-fields .subject-input {
+          grid-area: subject; 
+        }
+        #contact-a .text-fields .email-input {
+          grid-area: email; 
+        }
+        #contact-a .text-fields .phone-input {
+          grid-area: phone;
+         }
+        #contact-a .text-fields .message-input {
+          grid-area: message;
+          height: 100px;
+         }
+        #contact-a .text-fields .text-input {
+          padding: 0.5rem 1rem;
+         }
+      
+      #contact-a button[type='submit'] {
+        width: 50%; 
+    }
+
+        .btn-main, .btn-light, .btn-dark {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            transition: all 0.5s;
+            border: none;
+            cursor: pointer; 
+        }
+        /* .btn-dark {
+            color: #f4f4f4;
+            background-color: #333; } */
+
+         .section-title {
+            font-size: 2rem;
+            display: block;
+            padding-bottom: 0.5rem;
+            text-align: center;
+            font-weight: 100;
+            text-transform: uppercase;
+         }
+
+         .lead {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+         }
+
+         .text-center {
+            text-align: center; }
+          
